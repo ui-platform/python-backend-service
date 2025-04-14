@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{{Title}}</title>
+    <style>
+        body, html {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        .container {
+            min-width: 320px;
+            max-width: 625px;
+            margin: 0 auto;
+            background-color: transparent;
+            word-wrap: break-word;
+            word-break: break-word;
+        }
+        .column {
+            display: table-cell;
+            vertical-align: top;
+            width: 100%;
+        }
+        .content {
+            margin: 0 auto;
+            width: 100% !important;
+            padding: 40px 24px;
+            color: rgb(57, 61, 71);
+            line-height: 1.2;
+        }
+        .heading {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 36px;
+            color: rgb(0, 0, 0);
+            margin: 0;
+            padding-bottom: 3px;
+        }
+        .text {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgb(0, 0, 0);
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+<div style="background-color:#f4f4f4;">
+    <div class="container">
+        <div style="border-collapse: collapse; display: table; width: 100%;">
+            <div class="column">
+                <div class="content">
+                    <!-- Content goes here -->
+                    <div align="left" class="x_img-container x_left x_fixedwidth" style="padding-right:0; padding-left:0">
+                        <a href="https://my.mts-link.ru/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://storage.yandexcloud.net/ui-platform/ui_platform_logo.png" border="0" class="x_left x_fixedwidth" width="224" style="text-decoration:none; height:auto; border:0; width:224px; max-width:100%; display:block">
+                        </a>
+                    </div>
+                    <span class="heading">Проверка электронной почты для регистрации<br></span>
+                    <span class="text">Код: <b>{{Code}}</b></span><br><br>
+                    <span class="text">• Код станет недействительным через 5 минут.</span><br>
+                    <span class="text">• Если Вы не пытались подтвердить свой адрес электронной почты, игнорируйте это письмо.</span><br>
+                    <!-- More content -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
